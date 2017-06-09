@@ -7,8 +7,7 @@ IF "%1"=="-user" (choco install -y jre8
  choco install -y adobereader)
 
 REM Installs standard programs for a technician
-IF "%1"=="-tech" (choco install -y sysinternals
-choco install -y 7zip.install
+IF "%1"=="-tech" (choco install -y 7zip.install
 choco install -y wireshark
 choco install -y notepadplusplus.commandline
 choco install -y putty.install
@@ -27,7 +26,6 @@ choco install -y livestreamer)
 
 REM Installs crap tons of games.
 IF "%1"=="-games" (choco install -y steam
-choco install -y runescape
 choco install -y 0ad
 choco install -y aliengame
 choco install -y hearthstone-deck-tracker-arena-helper
@@ -75,11 +73,9 @@ choco install -y lua
 choco install -y notepadplusplus.install
 choco install -y nodejs.install
 choco install -y ollydbg
-choco install -y php
 choco install -y putty.install
 choco install -y ruby
 choco install -y rufus
-choco install -y sourcetree
 choco install -y sqlite-studio.portable
 choco install -y squashfs
 choco install -y tightvnc
