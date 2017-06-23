@@ -135,7 +135,7 @@ installs a list of programs for specific needs. To install a specific subset, us
 ### custom
 
     template to make custom installations.
-    use programs from the list of programs on the [Chocolatey Packages Website](https://chocolatey.org/packages)
+    use programs from the list of programs on the https://chocolatey.org/packages
 
 ### example template
 
