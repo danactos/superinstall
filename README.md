@@ -1,6 +1,6 @@
 # SuperInstall
 ## Combination of Chocolatey and Computer Software Management 
----
+
 
 | Table of Contents   | What they do             |
 |:-------------------:|:-------------------------|
@@ -12,7 +12,7 @@ Powershell: Note most windows come with powershell preinstalled. To check type p
 
 
 ## Instructions
----
+
 ### Powershell
 Run the InstallChocolatey.ps1
 ### CMD
@@ -21,11 +21,10 @@ Run the InstallChocolatey.bat
 
 # optional commands
 
-| Command             | What they do                                                                            |
-|:-------------------:|:----------------------------------------------------------------------------------------|
-| -fips               | Enables FIPS compliance in chocolatey. It's best to use this option immediately after a ||                     | fresh install of chocolatey, otherwise some errors may occur.                           |
-|                     |                                                                                         |
-| -install            | Install chocolatey using the InstallChocolatey.bat                                      |
+| Command | What they do  |
+|:---:|:---|
+| -fips   | Enables FIPS compliance in chocolatey. It's best to use this option immediately after a fresh install of chocolatey, otherwise some errors may occur.|
+| -install| Install chocolatey using the InstallChocolatey.bat|
 
 Cannot run both optional commands together.
 
@@ -146,7 +145,8 @@ windirstat
 ### custom
 
     template to make custom installations.
-    use programs from the list of programs on the [Chocolatey website](https://chocolatey.org/packages "chocolatey packages") 
+    use programs from the list of programs on the 
+    [Chocolatey website](https://chocolatey.org/packages "chocolatey packages") 
 ---
 ```cmd
     IF "%1"=="-customname" 
